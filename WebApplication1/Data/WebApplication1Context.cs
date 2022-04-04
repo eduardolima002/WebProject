@@ -14,6 +14,9 @@ namespace WebApplication1.Data
         {
         }
 
-        public DbSet<WebApplication1.Models.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
+        public DbSet<SalesRecord> SalesRecord { get; set; }
+        public DbSet<Seller> Seller { get; set; }
+
     }
 }
